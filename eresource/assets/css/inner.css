@@ -1,0 +1,20 @@
+body {
+        padding-left: 300px;
+}
+
+table, th, td {
+  border: 1px #d8d8d8 solid !important;
+  border-collapse: collapse;
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+
+th {
+  background-color: #ECF0F5;  
+ }
+
+ @media only screen and (max-width : 992px) {
+  body {
+    padding-left: 0;
+  }
+}
